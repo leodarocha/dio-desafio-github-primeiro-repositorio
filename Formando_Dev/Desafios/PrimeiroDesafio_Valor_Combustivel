@@ -1,0 +1,18 @@
+    //Faça um Programa usando 3 variaveis
+    //Para calcular o preço do combustível gasto em uma viagem
+    
+     
+     const precoCombustivel = 5.79; 
+     //Primeira variavel
+   const kmPorLitros = 8;
+   // Segunda variavel
+  const distanciaEmKm = 12;
+  // Terceira variavel  
+
+const litrosConsumidos = distanciaEmKm / kmPorLitros  ;
+   const valorGastos = litrosConsumidos * precoCombustivel ;
+   //Declarando as variaveis com constantes e calculando os resultados
+      console.log(valorGastos.toFixed(2));
+      //Imprimindo o resultado do valor gasto 
+
+
